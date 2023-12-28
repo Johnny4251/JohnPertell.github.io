@@ -9,23 +9,47 @@
   <title>Software Engineer Portfolio</title>
 </head>
 <body>
-  <div class="header">
+  <div class="header" id="header">
     <a class="name" href="#">John Pertell - SUNY Polytechnic Institute</a>
     <div class="header-right">
-      <a class="projects" href="#projects">Projects</a>
+      <a class="project-btn" href="#projects-listing">Projects</a>
     </div>
   </div>
 
   <main class="me">
     <div class="left">
-      <strong>Who am I?</strong>
-      <hr class = "breakline">
-      <p>I am a Computer Science student who has a strong talent with computers.</p>
+      <strong class="title-text">Who am I?</strong>
+      <hr class="breakline">
+      <p>I am an exceptional Computer Science student who enjoys staying up to date with new technologies.</p>
       <br>
-      <p>Oh, did I mention my obsession with Computer Vision.</p>
-      <hr class = "breakline">  
+      <p>Oh, did I mention my obsession with Computer Vision?</p>
+      <hr class="breakline">
     </div>
     <div class="right"><img src="me.png" alt="just a pic of me" id="imgpic"></div>
   </main>
+  <hr class="main-break">
+
+  <div class="projects-listing" id="projects-listing">
+    <strong class="title-text">A few impressive projects</strong>
+    <div class="project-item">
+      <div class="project-info">
+        <strong class="project-title">EasyCNN</strong>
+        <p class="skills-used">Skills: PyTorch, Image Classification</p>
+      </div>
+      <div class="project-description">
+        <p class="desc">A WIP way for me to easily create powerful Convolutional Neural Networks in PyTorch. I have used this in multiple applications where image accurate classification is key. This line is just gibberish. This project is still under construction but I am excited to see where it takes me.</p>
+      </div>
+    </div>
+  
+    <div class="project-item">
+      <div class="project-info">
+        <strong class="project-title">Project 2</strong>
+        <p class="skills-used">Skills: [List of skills]</p>
+      </div>
+      <div class="project-description">
+        <p class="desc">Description of Project 2</p>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
